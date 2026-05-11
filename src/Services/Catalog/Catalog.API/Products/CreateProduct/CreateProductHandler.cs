@@ -25,15 +25,14 @@ public class CreateProductHandler(IDocumentSession session)
             Name = command.Name,
             Description = command.Description,
             Price = command.Price,
-            ImageUrl = command.ImageUrl
+            ImageUrl = command.ImageUrl,
+            Category = command.Category
         };
         
 
 
         // var product = command.Adapt<Product>();
         
-        //todo
-        //save to database 
         session.Store(product);
         await session.SaveChangesAsync(cancellationToken);
 
