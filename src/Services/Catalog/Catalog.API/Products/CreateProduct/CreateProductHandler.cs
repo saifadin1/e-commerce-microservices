@@ -1,10 +1,3 @@
-using BuildingBlocks.CQRS;
-using Catalog.API.Models;
-using FluentValidation;
-using Mapster;
-using Marten;
-using MediatR;
-using ValidationException = System.ComponentModel.DataAnnotations.ValidationException;
 
 namespace Catalog.API.Products.CreateProduct;
 

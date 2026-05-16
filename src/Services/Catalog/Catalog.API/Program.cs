@@ -1,7 +1,5 @@
 using BuildingBlocks.Behaviors;
-using Carter;
-using FluentValidation;
-using Marten;
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCarter(null, config =>
@@ -25,12 +23,14 @@ builder.Services.AddMarten(opt =>
 }).UseLightweightSessions();
 
 
+builder.Services.AddExceptionHandler<CustomExceptionHandler>();
+
+
 
 var app = builder.Build();
 
 
 app.MapCarter();
-
-
+app.UseExceptionHandler(options => { });
 app.Run();
 

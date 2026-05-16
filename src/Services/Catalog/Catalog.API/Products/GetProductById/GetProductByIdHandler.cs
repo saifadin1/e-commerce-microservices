@@ -1,4 +1,5 @@
 using BuildingBlocks.CQRS;
+using Catalog.API.Exceptions;
 using Catalog.API.Models;
 using Marten;
 
@@ -13,6 +14,10 @@ internal class GetProductByIdQueryHandler(IDocumentSession session, ILogger<GetP
     {
         logger.LogInformation($"GetProductByIdHandler.Handle called with {query}");
         var product = await session.LoadAsync<Product>(query.Id, cancellationToken);
+        if (product is null)
+        {
+            throw new ProductNotFoundException(query.Id);
+        }
         return new GetProductByIdResult(product);
     }
 }

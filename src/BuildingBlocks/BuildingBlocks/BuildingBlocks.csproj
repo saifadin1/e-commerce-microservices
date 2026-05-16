@@ -8,9 +8,11 @@
 
     <ItemGroup>
       <PackageReference Include="Carter" Version="10.0.0" />
+      <PackageReference Include="FluentValidation" Version="12.1.1" />
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
       <PackageReference Include="Mapster" Version="10.0.8-pre04" />
       <PackageReference Include="MediatR" Version="14.1.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Diagnostics.Middleware" Version="10.6.0" />
     </ItemGroup>
 
 </Project>
