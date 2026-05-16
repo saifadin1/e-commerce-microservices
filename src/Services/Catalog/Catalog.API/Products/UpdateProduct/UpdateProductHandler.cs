@@ -1,5 +1,6 @@
 using BuildingBlocks.CQRS;
 using Catalog.API.Models;
+using FluentValidation;
 using Mapster;
 using Marten;
 
@@ -9,6 +10,15 @@ namespace Catalog.API.Products.UpdateProduct;
 public record UpdateProductCommand(Guid Id, String Name, List<string> Category, string Description, string ImageUrl, decimal Price) : ICommand<UpdateProductResult>;
 public record UpdateProductResult(bool isSuccess);
 
+public class UpdateProductValidator : AbstractValidator<UpdateProductCommand>
+{
+    public UpdateProductValidator()
+    {
+        RuleFor(p => p.Name).NotEmpty().WithMessage("Name should not be empty");
+        RuleFor(p => p.Category).NotEmpty().WithMessage("Category is Required");
+        RuleFor(p => p.Price).GreaterThan(0).WithMessage("Price should be greater than 0");
+    }
+}
 
 internal class UpdateProductCommandHandler(IDocumentSession session)
     : ICommandHandler<UpdateProductCommand, UpdateProductResult>
