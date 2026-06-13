@@ -12,7 +12,7 @@ public class CustomExceptionHandler(ILogger<CustomExceptionHandler> logger) : IE
     {
         logger.LogError(
             "Error Message: {exceptionMessage}, Time of Occurrence {time}" ,
-            exception, DateTime.UtcNow);
+            exception.Message, DateTime.UtcNow);
 
         (string Detail, string Title, int StatusCode) details = exception switch
         {

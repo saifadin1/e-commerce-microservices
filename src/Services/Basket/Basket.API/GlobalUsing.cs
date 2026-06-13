@@ -1,6 +1,5 @@
-namespace Basket.API;
-
-public class GlobalUsing
-{
-    
-}
+global using System.Reflection.Metadata;
+global using Basket.API.Models;
+global using BuildingBlocks.CQRS;
+global using Carter;
+global using MediatR;
