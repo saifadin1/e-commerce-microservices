@@ -10,6 +10,8 @@
     <ItemGroup>
         <PackageReference Include="Marten" Version="9.5.3" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.7"/>
+        <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="11.0.0-preview.5.26302.115" />
+        <PackageReference Include="Scrutor" Version="7.0.0" />
     </ItemGroup>
 
     <ItemGroup>
