@@ -3,7 +3,8 @@
     image: postgres
   basketdb:
     image: postgres
-
+  distributedcache:
+    image: redis
   catalog.api:
     image: catalog.api
     build:
@@ -12,7 +13,17 @@
     depends_on:
       - catalogdb
 
+  basket.api:
+    image: basket.api
+    build:
+      context: .
+      dockerfile: Services/Basket/Basket.API/Dockerfile
+    depends_on: 
+      - basketdb
+      - distributedcache
+      
 volumes:
   postgres_catalog:
   postgres_basket: 
+
 

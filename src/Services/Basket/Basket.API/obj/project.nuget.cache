@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mJOHTTKMhWA=",
+  "dgSpecHash": "aAJd5guwyTI=",
   "success": true,
   "projectFilePath": "/home/seif/microservices/src/Services/Basket/Basket.API/Basket.API.csproj",
   "expectedPackageFiles": [
+    "/home/seif/.nuget/packages/aspnetcore.healthchecks.npgsql/9.0.0/aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/aspnetcore.healthchecks.redis/9.0.0/aspnetcore.healthchecks.redis.9.0.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/aspnetcore.healthchecks.ui.client/9.0.0/aspnetcore.healthchecks.ui.client.9.0.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/aspnetcore.healthchecks.ui.core/9.0.0/aspnetcore.healthchecks.ui.core.9.0.0.nupkg.sha512",
     "/home/seif/.nuget/packages/carter/10.0.0/carter.10.0.0.nupkg.sha512",
     "/home/seif/.nuget/packages/carter.analyzers/10.0.0/carter.analyzers.10.0.0.nupkg.sha512",
     "/home/seif/.nuget/packages/distributedlock.core/1.0.8/distributedlock.core.1.0.8.nupkg.sha512",
