@@ -21,6 +21,14 @@
     depends_on: 
       - basketdb
       - distributedcache
+    
+  front:
+    image: front
+    build:
+      context: /home/seif/Downloads/ecommerce-dashboard
+      dockerfile: /home/seif/Downloads/ecommerce-dashboard/Dockerfile
+    ports:
+      - "6002:80"
       
 volumes:
   postgres_catalog:

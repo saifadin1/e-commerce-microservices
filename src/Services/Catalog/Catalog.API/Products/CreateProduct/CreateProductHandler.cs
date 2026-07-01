@@ -40,7 +40,7 @@ public class CreateProductHandler(IDocumentSession session)
 
         // var product = command.Adapt<Product>();
         
-        session.Store(product);
+        session.Store(product); 
         await session.SaveChangesAsync(cancellationToken);
 
         return new CreateProductResult(Guid.NewGuid());

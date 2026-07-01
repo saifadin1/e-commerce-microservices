@@ -5,6 +5,17 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", policy =>
+    {
+        policy.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 builder.Services.AddCarter(null, config =>
 {
     var modules = typeof(Program).Assembly.GetTypes().Where(t => t.IsAssignableTo(typeof(ICarterModule))).ToArray();
@@ -39,6 +50,7 @@ builder.Services.AddHealthChecks()
 
 var app = builder.Build();
 
+app.UseCors("CorsPolicy");
 
 app.UseExceptionHandler(options => { });
 app.UseHealthChecks("/health", 

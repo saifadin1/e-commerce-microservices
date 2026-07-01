@@ -1,5 +1,23 @@
 # This is a generated file. Not intended for manual editing.
 services:
+  basket.api:
+    build:
+      context: "/home/seif/microservices/src"
+      dockerfile: "Services/Basket/Basket.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net10.0/Basket.API.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "basket.api:dev"
+    ports: []
+    volumes:
+    - "/home/seif/microservices/src/Services/Basket/Basket.API:/app:rw"
+    - "/home/seif/microservices/src:/src:rw"
+    - "/home/seif/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
   catalog.api:
     build:
       context: "/home/seif/microservices/src"

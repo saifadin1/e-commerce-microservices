@@ -45,15 +45,15 @@ services:
       - ${HOME}/.aspnet/https:/home/app/.aspnet/https:ro
     
     
-  Basket.api:
+  basket.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_HTTP_PORTS=8080
       - ASPNETCORE_HTTPS_PORTS=8081
       - ConnectionStrings__BasketConnection=Server=basketdb;Port=5432;Database=basket;UserId=postgres;Password=postgres;Include Error Detail=true
-      - ConnectionStrings__Redis=Server=distributedcache:6379
+      - ConnectionStrings__Redis=distributedcache:6379
       - ASPNETCORE_Kestrel__Certificates__Default__Password=cryptographypassword
-      - ASPNETCORE_Kestrel__Certificates__Default__Path=/home/app/.aspnet/https/basket.api.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/home/app/.aspnet/https/catalog.api.pfx
     ports:
       - "6001:8080"
       - "6061:8081"
