@@ -28,8 +28,14 @@
       context: /home/seif/Downloads/ecommerce-dashboard
       dockerfile: /home/seif/Downloads/ecommerce-dashboard/Dockerfile
     ports:
-      - "6002:80"
+      - "7002:80"
       
+  discount.grpc:
+    image: discount.grpc
+    build:
+      context: .
+      dockerfile: Services/Discount/Discount.Grpc/Dockerfile
+
 volumes:
   postgres_catalog:
   postgres_basket: 

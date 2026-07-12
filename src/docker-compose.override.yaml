@@ -60,3 +60,18 @@ services:
     volumes:
       - ${HOME}/.microsoft/usersecrets:/home/app/.microsoft/usersecrets:ro
       - ${HOME}/.aspnet/https:/home/app/.aspnet/https:ro
+    
+  discount.grpc:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+      - ConnectionStrings__DiscountConnection=Data Source = discountdb
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=cryptographypassword
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/home/app/.aspnet/https/catalog.api.pfx
+    ports:
+      - "6002:8080"
+      - "6062:8081"
+    volumes:
+      - ${HOME}/.microsoft/usersecrets:/home/app/.microsoft/usersecrets:ro
+      - ${HOME}/.aspnet/https:/home/app/.aspnet/https:ro
