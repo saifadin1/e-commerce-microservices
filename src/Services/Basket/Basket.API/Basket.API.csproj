@@ -11,6 +11,7 @@
         <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="9.0.0" />
         <PackageReference Include="AspNetCore.HealthChecks.Redis" Version="9.0.0" />
         <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="9.0.0" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.80.0" />
         <PackageReference Include="Marten" Version="9.5.3" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.7"/>
         <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="11.0.0-preview.5.26302.115" />
@@ -23,6 +24,10 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+        <Protobuf Include="..\..\Discount\Discount.Grpc\Protos\discount.proto" GrpcServices="Client" Link="Protos\discount.proto" />
+    </ItemGroup>
+    
     <ItemGroup>
       <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
     </ItemGroup>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aAJd5guwyTI=",
+  "dgSpecHash": "I9aOj8dhDQk=",
   "success": true,
   "projectFilePath": "/home/seif/microservices/src/Services/Basket/Basket.API/Basket.API.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,15 @@
     "/home/seif/.nuget/packages/fastexpressioncompiler/5.4.1/fastexpressioncompiler.5.4.1.nupkg.sha512",
     "/home/seif/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
     "/home/seif/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "/home/seif/.nuget/packages/google.protobuf/3.31.1/google.protobuf.3.31.1.nupkg.sha512",
+    "/home/seif/.nuget/packages/grpc.aspnetcore/2.80.0/grpc.aspnetcore.2.80.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/grpc.aspnetcore.server/2.80.0/grpc.aspnetcore.server.2.80.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/grpc.aspnetcore.server.clientfactory/2.80.0/grpc.aspnetcore.server.clientfactory.2.80.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/grpc.core.api/2.80.0/grpc.core.api.2.80.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/grpc.net.client/2.80.0/grpc.net.client.2.80.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/grpc.net.clientfactory/2.80.0/grpc.net.clientfactory.2.80.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/grpc.net.common/2.80.0/grpc.net.common.2.80.0.nupkg.sha512",
+    "/home/seif/.nuget/packages/grpc.tools/2.80.0/grpc.tools.2.80.0.nupkg.sha512",
     "/home/seif/.nuget/packages/imtools/4.0.0/imtools.4.0.0.nupkg.sha512",
     "/home/seif/.nuget/packages/jasperfx/2.8.0/jasperfx.2.8.0.nupkg.sha512",
     "/home/seif/.nuget/packages/jasperfx.events/2.8.0/jasperfx.events.2.8.0.nupkg.sha512",

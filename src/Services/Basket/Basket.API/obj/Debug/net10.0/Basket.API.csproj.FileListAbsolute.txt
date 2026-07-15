@@ -112,3 +112,10 @@
 /home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/HealthChecks.Redis.dll
 /home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/HealthChecks.UI.Client.dll
 /home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/HealthChecks.UI.Core.dll
+/home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/Google.Protobuf.dll
+/home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/Grpc.AspNetCore.Server.dll
+/home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/Grpc.AspNetCore.Server.ClientFactory.dll
+/home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/Grpc.Core.Api.dll
+/home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/Grpc.Net.Client.dll
+/home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/Grpc.Net.ClientFactory.dll
+/home/seif/microservices/src/Services/Basket/Basket.API/bin/Debug/net10.0/Grpc.Net.Common.dll

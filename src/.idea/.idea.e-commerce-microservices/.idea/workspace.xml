@@ -22,28 +22,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="767fd4b7-81a2-4705-a5e9-30b72a5e90df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Data/Extentions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.e-commerce-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-commerce-microservices/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/ref/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/ref/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/refint/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/refint/BuildingBlocks.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBasketHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBasketHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/BuildingBlocks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/ref/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/ref/Basket.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/refint/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/refint/Basket.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Data/DiscountContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Data/DiscountContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Discount.Grpc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Discount.Grpc.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/discountdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/discountdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.override.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.override.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +164,7 @@
     ".NET Launch Settings Profile.Catalog.API: http.executor": "Run",
     ".NET Launch Settings Profile.Catalog.API: https.executor": "Run",
     ".NET Launch Settings Profile.Discount.Grpc: http.executor": "Run",
-    ".NET Launch Settings Profile.Discount.Grpc: https.executor": "Debug",
+    ".NET Launch Settings Profile.Discount.Grpc: https.executor": "Run",
     "Docker.compose.yaml: Compose Deployment.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -158,18 +180,18 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/seif/microservices/src/docker-compose.override.yaml",
+    "last_opened_file_path": "/home/seif/microservices/src/Services/Discount/Discount.Grpc/Protos/discount.proto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Discount.Grpc: https">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Basket.API: https">
     <configuration name="Basket.API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
@@ -385,7 +407,8 @@
       <workItem from="1782304563147" duration="4247000" />
       <workItem from="1782410765676" duration="634000" />
       <workItem from="1782910614126" duration="12645000" />
-      <workItem from="1783871254933" duration="4111000" />
+      <workItem from="1783871254933" duration="7542000" />
+      <workItem from="1783949525460" duration="7011000" />
     </task>
     <task id="LOCAL-00001" summary="feat: finish product CRUD endpoints">
       <option name="closed" value="true" />

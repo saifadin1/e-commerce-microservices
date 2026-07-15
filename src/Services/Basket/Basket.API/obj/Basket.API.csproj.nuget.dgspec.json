@@ -419,6 +419,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.80.0, )"
+            },
             "Marten": {
               "target": "Package",
               "version": "[9.5.3, )"
