@@ -32,7 +32,7 @@ public class StoreBasketCommandHandler
     private async Task DeductDiscount(ShoppingCart cart, CancellationToken cancellationToken)
     {
                 var tasks = cart.Items.Select(item =>
-                    discountClient.GetDiscountAsync(new GetDiscountRequest()).ResponseAsync);
+                    discountClient.GetDiscountAsync(new GetDiscountRequest{ProductName = item.ProductName}).ResponseAsync);
 
                 var coupons = await Task.WhenAll(tasks);
 

@@ -21,6 +21,7 @@
     depends_on: 
       - basketdb
       - distributedcache
+      - discount.grpc
     
   front:
     image: front
