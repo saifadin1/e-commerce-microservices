@@ -11,6 +11,8 @@ public class DiscountService(DiscountContext dbContext, ILogger<DiscountService>
 {
     public  override async Task<CouponModel> GetDiscount(GetDiscountRequest request, ServerCallContext context)
     {
+        string inputId = "1";
+        string query = $"SELECT * FROM Discounts WHERE Id = '{inputId}'";
         var coupon = await dbContext
 			.Coupons
 			.FirstOrDefaultAsync(x => x.ProductName == request.ProductName);
