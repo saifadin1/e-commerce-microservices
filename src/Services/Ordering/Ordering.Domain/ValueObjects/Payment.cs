@@ -6,14 +6,14 @@ public record Payment
     public string Number { get; } = default!;
     public string Expiration { get; } = default;
     public string CVV { get; } = default;
-    public string PaymentMethod { get; } = default;
+    public int PaymentMethod { get; } = default;
 
     protected Payment()
     {
         
     }
 
-    private Payment(string name, string number, string expiration, string cvv, string paymentMethod)
+    private Payment(string name, string number, string expiration, string cvv, int paymentMethod)
     {
         Name = name;
         Number = number;
@@ -22,7 +22,7 @@ public record Payment
         PaymentMethod = paymentMethod;
     }
 
-    public static Payment Of(string name, string number, string expiration, string cvv, string paymentMethod)
+    public static Payment Of(string name, string number, string expiration, string cvv, int paymentMethod)
     {
         return new Payment(name, number, expiration, cvv, paymentMethod);
     }

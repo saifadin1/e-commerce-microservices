@@ -40,7 +40,7 @@ public class InitialData
                 orderName: OrderName.Of("Alice's Desk Setup Order"),
                 shippingAddress: Address.Of("123 Main St", "New York", "NY", "10001", "USA", "12345", "Apt 101"),
                 billingAddress: Address.Of("123 Main St", "New York", "NY", "10001", "USA", "12345", "Apt 101"),
-                payment: Payment.Of("Alice Smith", "4111222233334444", "12/28", "123", "1")
+                payment: Payment.Of("Alice Smith", "4111222233334444", "12/28", "123", 1)
             );
 
             order1.Add(Product1Id, quantity: 1, price: 129.99m);
@@ -53,7 +53,7 @@ public class InitialData
                 orderName: OrderName.Of("Bob's Monitor Order"),
                 shippingAddress: Address.Of("123 Main St", "New York", "NY", "10001", "USA", "12345", "Apt 101"),
                 billingAddress: Address.Of("123 Main St", "New York", "NY", "10001", "USA", "12345", "Apt 101"),
-                payment: Payment.Of("Bob Jones", "5500000000000004", "09/27", "456", "2")
+                payment: Payment.Of("Bob Jones", "5500000000000004", "09/27", "456", 2)
             );
 
             order2.Add(Product3Id, quantity: 2, price: 349.00m);

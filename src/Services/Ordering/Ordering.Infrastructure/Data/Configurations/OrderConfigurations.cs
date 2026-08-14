@@ -6,6 +6,12 @@ using Ordering.Domain.ValueObjects;
 
 namespace Ordering.Infrastructure.Data.Configurations;
 
+
+// OwnOne vs ComplexProperty
+
+
+
+
 public class OrderConfigurations : IEntityTypeConfiguration<Order>
 {
     public void Configure(EntityTypeBuilder<Order> builder)

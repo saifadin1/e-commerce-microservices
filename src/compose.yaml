@@ -9,7 +9,13 @@
     image: redis
     
   orderdb: 
-    image: mcr.microsoft.com/mssql/server
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Asd12345678
+    restart: always
+    ports:
+      - "1433:1433"
   catalog.api:
     image: catalog.api
     build:
@@ -28,13 +34,13 @@
       - distributedcache
       - discount.grpc
     
-  front:
-    image: front
-    build:
-      context: /home/seif/Downloads/ecommerce-dashboard
-      dockerfile: /home/seif/Downloads/ecommerce-dashboard/Dockerfile
-    ports:
-      - "7002:80"
+#  front:
+#    image: front
+#    build:
+#      context: /home/seif/Downloads/ecommerce-dashboard
+#      dockerfile: /home/seif/Downloads/ecommerce-dashboard/Dockerfile
+#    ports:
+#      - "7002:80"
       
   discount.grpc:
     image: discount.grpc
