@@ -37,6 +37,18 @@ services:
     restart: always
     ports:
       - "1433:1433"
+    
+    
+  messagebroker: 
+    container_name: messagebroker
+    hostname: ecommerce-mq
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
   
   catalog.api:
     environment:
@@ -61,6 +73,9 @@ services:
       - ASPNETCORE_HTTPS_PORTS=8081
       - ConnectionStrings__BasketConnection=Server=basketdb;Port=5432;Database=basket;UserId=postgres;Password=postgres;Include Error Detail=true
       - ConnectionStrings__Redis=distributedcache:6379
+      - MessageBroker__Host=amqp://messagebroker:5672
+      - MessageBroker__UserName=guest
+      - MessageBroker__Password=guest
       - GrpcSettings__DiscountUrl=https://discount.grpc:8081
       - ASPNETCORE_Kestrel__Certificates__Default__Password=cryptographypassword
       - ASPNETCORE_Kestrel__Certificates__Default__Path=/home/app/.aspnet/https/catalog.api.pfx
@@ -85,3 +100,29 @@ services:
     volumes:
       - ${HOME}/.microsoft/usersecrets:/home/app/.microsoft/usersecrets:ro
       - ${HOME}/.aspnet/https:/home/app/.aspnet/https:ro
+    
+    
+  ordering.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+      - ConnectionStrings__Database=Server=orderdb;Database=OrderDb;User Id=sa;Password=Asd12345678; Encrypt=False;TrustServerCertificate=True;
+      - MessageBroker__Host=amqp://messagebroker:5672
+      - MessageBroker__UserName=guest
+      - MessageBroker__Password=guest
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=cryptographypassword
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/home/app/.aspnet/https/catalog.api.pfx
+      - FeatureManagement__OrderFullfilment=false
+    ports:
+      - "6003:8080"
+      - "6063:8081"
+    depends_on:
+      - orderdb
+      - messagebroker
+    
+    volumes:
+      - ${HOME}/.microsoft/usersecrets:/home/app/.microsoft/usersecrets:ro
+      - ${HOME}/.aspnet/https:/home/app/.aspnet/https:ro
+    
+    

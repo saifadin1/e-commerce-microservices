@@ -13,7 +13,8 @@
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
           "Mapster": "10.0.8-pre04",
           "MediatR": "14.1.0",
-          "Microsoft.AspNetCore.Diagnostics.Middleware": "10.6.0"
+          "Microsoft.AspNetCore.Diagnostics.Middleware": "10.6.0",
+          "Microsoft.FeatureManagement.AspNetCore": "4.6.0"
         },
         "runtime": {
           "BuildingBlocks.dll": {}
@@ -115,6 +116,14 @@
           "lib/net10.0/Microsoft.AspNetCore.Diagnostics.Middleware.dll": {
             "assemblyVersion": "10.6.0.0",
             "fileVersion": "10.600.26.26104"
+          }
+        }
+      },
+      "Microsoft.Bcl.TimeProvider/8.0.1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Bcl.TimeProvider.dll": {
+            "assemblyVersion": "8.0.0.1",
+            "fileVersion": "8.0.123.58001"
           }
         }
       },
@@ -469,6 +478,31 @@
           }
         }
       },
+      "Microsoft.FeatureManagement/4.6.0": {
+        "dependencies": {
+          "Microsoft.Bcl.TimeProvider": "8.0.1",
+          "Microsoft.Extensions.Configuration": "10.0.8",
+          "Microsoft.Extensions.Configuration.Binder": "10.0.8",
+          "Microsoft.Extensions.Logging": "10.0.8"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.FeatureManagement.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.0.0"
+          }
+        }
+      },
+      "Microsoft.FeatureManagement.AspNetCore/4.6.0": {
+        "dependencies": {
+          "Microsoft.FeatureManagement": "4.6.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.FeatureManagement.AspNetCore.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.0.0"
+          }
+        }
+      },
       "Microsoft.IdentityModel.Abstractions/8.14.0": {
         "runtime": {
           "lib/net9.0/Microsoft.IdentityModel.Abstractions.dll": {
@@ -581,6 +615,13 @@
       "sha512": "sha512-y7bkhQU1sogHU77F7otRWMn8Jx3REX0FgUDf3MXt2wj9aQ1JnJKWv+6bcmhYybsQ4XPW/9Gf/T4DEbs9P2yXQw==",
       "path": "microsoft.aspnetcore.diagnostics.middleware/10.6.0",
       "hashPath": "microsoft.aspnetcore.diagnostics.middleware.10.6.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.TimeProvider/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C7kWHJnMRY7EvJev2S8+yJHZ1y7A4ZlLbA4NE+O23BDIAN5mHeqND1m+SKv1ChRS5YlCDW7yAMUe7lttRsJaAA==",
+      "path": "microsoft.bcl.timeprovider/8.0.1",
+      "hashPath": "microsoft.bcl.timeprovider.8.0.1.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Common/4.14.0": {
       "type": "package",
@@ -742,6 +783,20 @@
       "sha512": "sha512-aNQEJu5DD2YVQEWWmC/ALEiV1Qt400BaDO+SExtfAaGqYaNu/r2sW9xGLuc71fcjbrmzqX8LzNgK5mzjjMW9RQ==",
       "path": "microsoft.extensions.telemetry.abstractions/10.6.0",
       "hashPath": "microsoft.extensions.telemetry.abstractions.10.6.0.nupkg.sha512"
+    },
+    "Microsoft.FeatureManagement/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kLjGgEhlzuKs6t7g8so1dqsmE5NaSURNPOWkKD056nF43G/6w/VK5Gd02WKgpuBRQ9mjl7odAe462bn3XKBXmg==",
+      "path": "microsoft.featuremanagement/4.6.0",
+      "hashPath": "microsoft.featuremanagement.4.6.0.nupkg.sha512"
+    },
+    "Microsoft.FeatureManagement.AspNetCore/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+0G11gpuGqggJ7nrB7jL/oT4bsRVqnM5q6+qgC5sO2oW4JWymXoUAkDNsuLsMB9La9Ota248x8dwhoL2erImwQ==",
+      "path": "microsoft.featuremanagement.aspnetcore/4.6.0",
+      "hashPath": "microsoft.featuremanagement.aspnetcore.4.6.0.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Abstractions/8.14.0": {
       "type": "package",

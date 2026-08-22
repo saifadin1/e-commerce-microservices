@@ -18,7 +18,7 @@ namespace Ordering.Infrastructure.Data.migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.10")
+                .HasAnnotation("ProductVersion", "10.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -127,9 +127,8 @@ namespace Ordering.Infrastructure.Data.migrations
                                 .HasMaxLength(24)
                                 .HasColumnType("nvarchar(24)");
 
-                            b1.Property<string>("PaymentMethod")
-                                .IsRequired()
-                                .HasColumnType("nvarchar(max)");
+                            b1.Property<int>("PaymentMethod")
+                                .HasColumnType("int");
                         });
 
                     b.ComplexProperty(typeof(Dictionary<string, object>), "ShippingAddress", "Ordering.Domain.Models.Order.ShippingAddress#Address", b1 =>

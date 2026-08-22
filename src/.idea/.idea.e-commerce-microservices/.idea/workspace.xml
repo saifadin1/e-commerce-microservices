@@ -24,34 +24,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="767fd4b7-81a2-4705-a5e9-30b72a5e90df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Pagination/PaginatedResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Pagination/PaginationRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/CreateOrder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/DeleteOrder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/GetOrders.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/GetOrdersByCustomer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/GetOrdersByName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/UpdateOrder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Extensions/OrderExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrders/GetOrdersHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrders/GetOrdersQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrdersByCustomer/GetOrdersByCustomerQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrdersByCustomer/GetOrdersByCustomerQueryHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrdersByName/GetOrdersByNameQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrdersByName/GetOrdersByNameQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/CheckoutBasket/CheckoutBasketEndpoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/CheckoutBasket/CheckoutBasketHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/DTOs/BasketCheckoutDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/Integration/BasketCheckoutEventHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.e-commerce-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-commerce-microservices/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.Messaging/BuildingBlocks.Messaging.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.Messaging/BuildingBlocks.Messaging.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.Messaging/Events/BasketCheckoutEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.Messaging/Events/BasketCheckoutEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.Messaging/MassTransit/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.Messaging/MassTransit/Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/BuildingBlocks.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/BuildingBlocks.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net10.0/BuildingBlocks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/BuildingBlocks.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/BuildingBlocks.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/BuildingBlocks.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/BuildingBlocks.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/BuildingBlocks.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/ref/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/ref/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/refint/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net10.0/refint/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/Basket.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/BuildingBlocks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net10.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/Basket.API.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/ref/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/ref/Basket.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/refint/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/refint/Basket.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/BuildingBlocks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/Catalog.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/Catalog.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/Catalog.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/Catalog.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net10.0/Catalog.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Catalog.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Catalog.API.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/Catalog.API.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/ref/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/ref/Catalog.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/refint/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/refint/Catalog.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/DependencyInjection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Ordering.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Ordering.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Extensions/OrderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Extensions/OrderExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/OrderCreatedEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/Domain/OrderCreatedEventHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/OrderUpdatedEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/Domain/OrderUpdatedEventHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.override.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.override.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-microservices.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/e-commerce-microservices.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +146,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ef5aef5920934afeb4937c5e6c98ab1117000/58/66451bcb/INotificationHandler`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3f90382a2879fd3c344d4093c08369e16e56d62c42af51f92bf4933a7565f71f/AbstractValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5398d913684ddc4a2b3417883cf78b68c1c013ecc27a299379d98ce7234f9/MartenActivator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9161da3da671f777cc3652d39696c23db97793e37cb97fcb4e1e87234e56322/ValidationException.cs" root0="FORCE_HIGHLIGHTING" />
@@ -92,6 +158,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e5ace92664429b8b34b68b587316fb211811b58aeb53422b43cecca2ad2bdaf3/AsyncTaskMethodBuilderT.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ecfc69314ec4c0c0f6b4c4c95f99652b39f8def19dbd22d6fddf716ad152fa/IValidationContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9d2f95d72fa884d8b6ddefc717c56da3657fbb2d5fb683656c3589eb6587/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.Messaging/Events/BasketCheckoutEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.Messaging/Events/IntegrationEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.Messaging/MassTransit/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Behaviors/LoggingBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Behaviors/ValidationBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/CQRS/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
@@ -104,12 +173,15 @@
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Exceptions/NotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Pagination/PaginatedResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Pagination/PaginationRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/CheckoutBasket/CheckoutBasketEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/CheckoutBasket/CheckoutBasketHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/DeleteBasket/DeleteBasketEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/DeleteBasket/DeleteBasketHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/GetBasket/GetBasketEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/GetBasket/GetBasketHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBasketEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBasketHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/DTOs/BasketCheckoutDTO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/GlobalUsing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Models/ShoppingCart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Models/ShoppingCartItem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -147,8 +219,7 @@
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Commands/DeleteOrder/DeleteOrderCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Commands/UpdateOrder/UpdateOrderCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Commands/UpdateOrder/UpdateOrderHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/OrderCreatedEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/OrderUpdatedEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/Integration/BasketCheckoutEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrders/GetOrdersHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrders/GetOrdersQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrdersByCustomer/GetOrdersByCustomerQuery.cs" root0="FORCE_HIGHLIGHTING" />
@@ -223,7 +294,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Docker.compose.yaml.orderdb: Compose Deployment">
+  <component name="RunManager" selected="Docker.compose.yaml: Compose Deployment">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -618,6 +689,27 @@
             </list>
           </option>
           <option name="sourceFilePath" value="Services/Ordering/Ordering.API/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ordering.API/Dockerfile1" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="ordering.api" />
+          <option name="containerName" value="ordering.api" />
+          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Services/Ordering/Ordering.API/Dockerfile1" />
         </settings>
       </deployment>
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
@@ -737,6 +829,7 @@
       <item itemvalue=".NET Launch Settings Profile.Basket.API: https" />
       <item itemvalue=".NET Launch Settings Profile.Catalog.API: http" />
       <item itemvalue=".NET Launch Settings Profile.Catalog.API: https" />
+      <item itemvalue="Docker.Ordering.API/Dockerfile1" />
       <item itemvalue="Docker.Ordering.API/Dockerfile" />
       <item itemvalue="Docker.Discount.Grpc/Dockerfile" />
       <item itemvalue="Docker.Basket.API/Dockerfile" />
@@ -789,6 +882,8 @@
       <workItem from="1786559147484" duration="7068000" />
       <workItem from="1786640154316" duration="18672000" />
       <workItem from="1786810249471" duration="1864000" />
+      <workItem from="1787058293204" duration="29337000" />
+      <workItem from="1787408593221" duration="3868000" />
     </task>
     <task id="LOCAL-00001" summary="feat: finish product CRUD endpoints">
       <option name="closed" value="true" />
